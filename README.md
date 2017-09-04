@@ -2,7 +2,7 @@
 
 Log customer lifetime value (LTV) on a user, to be used in filtering
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+![Screenshot](resources/icon.png)
 
 ## Installation
 

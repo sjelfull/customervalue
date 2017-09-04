@@ -1,0 +1,14 @@
+{
+	"name": "sjelfull/customervalue",
+	"description": "Log customer lifetime value (LTV) on a user, to be used in filtering",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Superbig",
+			"homepage": "https://superbig.co"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

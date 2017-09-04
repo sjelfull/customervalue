@@ -1,0 +1,31 @@
+{#
+/**
+ * Customer Value plugin for Craft CMS
+ *
+ * CustomerValueFieldType HTML
+ *
+ * @author    Superbig
+ * @copyright Copyright (c) 2017 Superbig
+ * @link      https://superbig.co
+ * @package   CustomerValue
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% if not settings.showField %}
+    <style>
+        #{{ namespaceId }}-field {
+            display: none;
+        }
+    </style>
+{% endif %}
+
+{{ forms.textField({
+    id: id ~ 'value',
+    class: 'nicetext',
+    value: value,
+    required: false,
+    readonly: true,
+}) }}
